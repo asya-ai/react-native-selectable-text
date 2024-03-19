@@ -12,6 +12,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.astrocoders.selectabletext"
     compileSdkVersion 33
     buildToolsVersion "23.0.1"
 
@@ -33,4 +34,3 @@ repositories {
 dependencies {
     implementation 'com.facebook.react:react-native:+'
 }
-  
